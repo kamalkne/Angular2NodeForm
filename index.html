@@ -2,6 +2,7 @@
 <html>
  
     <head>
+        <link rel="stylesheet" href="./assets/css/styles.css" />
         <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
         <script src="node_modules/systemjs/dist/system.js"></script>
         <script>
@@ -17,7 +18,9 @@
     </head>
  
   <body>
-    <my-app></my-app>
+      <my-app
+          [slot]="slot">
+      </my-app>
   </body>
  
 </html>
