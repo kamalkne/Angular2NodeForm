@@ -7,5 +7,10 @@ import { TimeSlotComponent } from 'built/component/time-slot/time-slot.component
     directives: [TimeSlotComponent]
 })
 export class AppComponent {
-    public mySlot:number = 2;
+public Slots:Array = [
+        '9.00 - 10.00 AM',
+        '10.00 - 11.00 AM',
+        '11.00 - 12.00 AM',
+        '12.00 - 01.00 PM'
+    ];
 }

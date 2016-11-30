@@ -44,3 +44,4 @@ docs/**
 build.zip
 dev/build.json
 dev/version.txt
+/npm-debug.log.1448851215
