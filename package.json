@@ -1,0 +1,41 @@
+{
+  "name": "angular2form",
+  "version": "1.0.0",
+  "description": "Form based on Angular2 TypeScript NodeJS ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "concurrently \"npm run watch\" \"npm run serve\"",
+    "watch": "tsc -w",
+    "serve": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamalkne/Angular2NodeForm.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Angular2",
+    "JavaScript",
+    "TypeScript",
+    "ExpressJS"
+  ],
+  "author": "Kamal Kokne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamalkne/Angular2NodeForm/issues"
+  },
+  "homepage": "https://github.com/kamalkne/Angular2NodeForm#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.17",
+    "es6-shim": "^0.35.1",
+    "es6-promise": "^3.1.2",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.6",
+    "zone.js": "^0.6.17"
+  },
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.2.2"
+  }
+}
